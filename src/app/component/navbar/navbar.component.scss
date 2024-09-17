@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f4a261; /* Spreminjaj barvo ob hoverju */
+}
+
+.nav-auth a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.nav-auth a:hover {
+    color: #f4a261;
+}

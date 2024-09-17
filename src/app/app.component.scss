@@ -1,0 +1,187 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f4a261; /* Spreminjaj barvo ob hoverju */
+}
+
+.nav-auth a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.nav-auth a:hover {
+    color: #f4a261;
+}
+
+/* Sloganje glavnega dela */
+.main-content {
+    padding: 40px 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333;
+}
+
+h2{
+    text-align: center;
+}
+
+.featured-topics, .latest-posts {
+    margin-bottom: 40px;
+}
+
+.featured-topics h2, .latest-posts h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card-container {
+    width: 80%;
+    margin: 0px 10%;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 10%;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #f4a261;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e76f51;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Sloganje footerja */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #f4a261; /* Spreminjaj barvo ob hoverju */
+}
+
+.footer-social {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #f4a261;
+}
+
+.footer-text {
+    font-size: 14px;
+}

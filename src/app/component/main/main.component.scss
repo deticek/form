@@ -1,0 +1,84 @@
+/* Sloganje glavnega dela */
+.main-content {
+    padding: 40px 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333;
+}
+
+h2{
+    text-align: center;
+}
+
+.featured-topics, .latest-posts {
+    margin-bottom: 40px;
+}
+
+.featured-topics h2, .latest-posts h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card-container {
+    width: 80%;
+    margin: 0px 10%;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 10%;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #f4a261;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e76f51;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
